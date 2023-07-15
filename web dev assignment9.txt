@@ -1,0 +1,19 @@
+Q.1 What are hooks in react? how to identify hooks?
+Answer: React Hooks are functions that allow you to use state and other React features in functional components without having to write a class and Each React Hook name is prefixed with the word “use”. For example and useState or useEffect
+Q.2 Explain useState Hook & what can you achieve with it?
+Answer: The useState Hook is a built-in hook in React that allows you to add state to functional components and It returns an array with two elements the current state value and a function that lets you update the state value
+Q.3 How to pass data from one component to another component
+Answer: In React, you can pass data from one component to another component using props. Props are read-only and are used to pass data from a parent component to a child component and  The parent component can pass data to the child component by setting attributes on the child component
+Q.4 What is the significance of the "key" prop in React lists, and why is it important to use it correctly?
+Answer: The “key” prop is a special attribute that you need to include when creating lists of elements in React and It helps React identify which items have changed, been added and or been removed from the list. When you don’t include a key prop React will use the index of the item as the key by default .
+Q.5 What is the significance of using "setState" instead of modifying state directly in React?
+Answer: In React, you should always use the “setState” method to update component state instead of modifying state directly
+Q.6 Explain the concept of React fragments and when you should use them.
+Answer: React fragments are a way to group a list of children without adding extra nodes to the DOM and They let you group a list of children without adding extra nodes to the DOM and Fragments were introduced in React 16.2 
+Q.7 How do you handle conditional rendering in React?
+Answer: In React, you can handle conditional rendering using the “if” statement or the ternary operator. Here’s an example of how you can use the ternary operator to conditionally render content:
+
+
+
+
+
